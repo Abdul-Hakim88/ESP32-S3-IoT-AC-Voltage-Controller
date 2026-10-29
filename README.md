@@ -35,6 +35,9 @@ The repository includes two distinct C++ firmware implementations for the ESP32-
 
 1. **Phase Angle Control (Light Dimming):** Utilizes hardware timers to delay the Triac trigger pulse (500 µs to 9200 µs) after the zero-crossing edge, chopping the AC wave for smooth incandescent or dimmable LED lighting control.
 2. **Integral Cycle Control (Fan/Motor Control):** Counts 100 AC half-cycles (1 second at 50Hz) and fires full sine waves proportionally to the target power percentage. This eliminates audible electrical motor humming and reduces harmonic distortion for inductive loads.
+## 3D Views 
+<img width="3645" height="2436" alt="PCB0" src="https://github.com/user-attachments/assets/bcb2a70d-8652-42f9-9dbd-2b78b61848b4" />
+<img width="5955" height="3500" alt="PCB1" src="https://github.com/user-attachments/assets/0c35d5e4-fa9d-4ab3-b510-06b33bd8c903" />
 
 ## Disclaimer
 
